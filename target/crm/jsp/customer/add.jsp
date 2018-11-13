@@ -9,7 +9,15 @@
 <LINK href="${pageContext.request.contextPath }/css/Manage.css" type=text/css
 	rel=stylesheet>
 
+<script type="application/javascript" src="${pageContext.request.contextPath }/js/jquery-1.4.4.min.js"></script>
+	<script type="application/javascript">
+		$(function () {
+			//异步查询字典数据
+			$.post("${pageContext.request.contextPath }/baseDict_findByTypeCode.action",{"dict_type_code":"002"},function (data) {
 
+            });
+        })
+	</script>
 <META content="MSHTML 6.00.2900.3492" name=GENERATOR>
 </HEAD>
 <BODY>
