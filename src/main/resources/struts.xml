@@ -10,8 +10,10 @@
     <constant name="struts.i18n.reload" value="true" />
     <constant name="struts.configuration.xml.reload" value="true" />
 
-<package name="main" namespace="/" extends="struts-default">
-
+<package name="crm" namespace="/" extends="struts-default">
+    <action name="user_*" class="userAction" method="{1}">
+        <result name="login">login.jsp</result>
+    </action>
 </package>
 
 
