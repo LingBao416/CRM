@@ -9,6 +9,7 @@
     <constant name="struts.devMode" value="true" />
     <constant name="struts.i18n.reload" value="true" />
     <constant name="struts.configuration.xml.reload" value="true" />
+    <constant name="struts.multipart.maxSize" value="524280" />
 
 <package name="crm" namespace="/" extends="struts-default">
     <action name="user_*" class="userAction" method="{1}">
@@ -19,6 +20,15 @@
     <action name="customer_*" class="customerAction" method="{1}">
         <result name="saveUI">/jsp/customer/add.jsp</result>
         <result name="findAll">/jsp/customer/list.jsp</result>
+        <result name="editSuccess">/jsp/customer/edit.jsp</result>
+        <result name="saveSuccess" type="redirectAction">/customer_findAll.action</result>
+        <result name="deleteSuccess" type="redirectAction">/customer_findAll.action</result>
+        <result name="input">/jsp/customer/add.jsp</result>
+
+        <interceptor-ref name="defaultStack">
+            <param name="fileUpload.maximumSize">2097152</param>
+            <param name="fileUpload.allowedExtensions">.jpg</param>
+        </interceptor-ref>
     </action>
 
     <action name="baseDict_*" class="baseDictAction" method="{1}">

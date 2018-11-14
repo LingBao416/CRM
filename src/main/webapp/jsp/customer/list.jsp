@@ -99,9 +99,9 @@
 													<TD><s:property value="baseDictIndustry.dict_item_name"/> </TD
 													<TD><s:property value="cust_phone"/> </TD
 													<TD><s:property value="cust_mobile"/> </TD
-													<a href="${pageContext.request.contextPath }/customerServlet?method=edit&custId=${customer.custId}">修改</a>
+													<a href="${pageContext.request.contextPath }customer_edit.action?cust_id=<s:property value="cust_id">修改</a>
 													&nbsp;&nbsp;
-													<a href="${pageContext.request.contextPath }/customerServlet?method=delete&custId=${customer.custId}">删除</a>
+													<a href="${pageContext.request.contextPath }/customer_delete.action?cust_id=<s:property value="cust_id">删除</a>
 													</TD>
 												</TR>
 												
@@ -116,7 +116,7 @@
 									<TD><SPAN id=pagelink>
 											<DIV
 												style="LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-ALIGN: right">
-												共[<B><S:property value="totalCount"></B>]条记录,[<B><s:property value="totalPage"></B>]页
+												共[<B><s:property value="totalCount"></B>]条记录,[<B><s:property value="totalPage"></B>]页
 												,每页显示
 												<select name="pageSize">
 												

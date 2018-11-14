@@ -48,6 +48,7 @@
                 <value>classpath:crm/domain/User.hbm.xml</value>
                 <value>classpath:crm/domain/Customer.hbm.xml</value>
                 <value>classpath:crm/domain/BaseDict.hbm.xml</value>
+                <value>classpath:crm/domain/LinkMan.hbm.xml</value>
             </list>
         </property>
         <!-- 设置映射文件 -->
@@ -94,6 +95,19 @@
     </bean>
     <!--配置dao-->
     <bean id = "baseDictDao" class="crm.dao.impl.BaseDictDaoImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!--配置action-->
+    <bean id = "linkManAction" class="crm.web.action.LinkManAction" scope="prototype">
+        <property name="linkManService" ref="linkManService"/>
+    </bean>
+    <!--配置service-->
+    <bean id = "linkManService" class="crm.service.impl.LinkManServiceImpl">
+        <property name="linkManDao" ref="linkManDao"/>
+    </bean>
+    <!--配置dao-->
+    <bean id = "linkManDao" class="crm.dao.impl.LinkManDaoImpl">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
     <!-- 配置事务管理器 -->
