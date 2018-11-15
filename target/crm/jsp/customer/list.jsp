@@ -1,4 +1,6 @@
-﻿<%@ page language="java" contentType="text/html; charset=UTF-8"
+﻿<%@ taglib prefix="S" uri="/struts-tags" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -23,7 +25,7 @@
 </HEAD>
 <BODY>
 	<FORM id="customerForm" name="customerForm"
-		action="${pageContext.request.contextPath }/customerServlet?method=list"
+		action="${pageContext.request.contextPath }/customer_findAll.action"
 		method=post>
 		
 		<TABLE cellSpacing=0 cellPadding=0 width="98%" border=0>
@@ -88,23 +90,22 @@
 													<TD>手机</TD>
 													<TD>操作</TD>
 												</TR>
-												<c:forEach items="${list }" var="customer">
+												<S:iterator value="list">
 												<TR
 													style="FONT-WEIGHT: normal; FONT-STYLE: normal; BACKGROUND-COLOR: white; TEXT-DECORATION: none">
-													<TD>${customer.custName }</TD>
-													<TD>${customer.custLevel }</TD>
-													<TD>${customer.custSource }</TD>
-													<TD>${customer.custLinkman }</TD>
-													<TD>${customer.custPhone }</TD>
-													<TD>${customer.custMobile }</TD>
-													<TD>
+													<TD><s:property value="cust_name"/> </TD
+													<TD><s:property value="baseDictLevel.dict_item_name"/> </TD													<TD>${customer.custSource }</TD>
+													<TD><s:property value="baseDictSource.dict_item_name"/> </TD													<TD>${customer.custPhone }</TD>
+													<TD><s:property value="baseDictIndustry.dict_item_name"/> </TD
+													<TD><s:property value="cust_phone"/> </TD
+													<TD><s:property value="cust_mobile"/> </TD
 													<a href="${pageContext.request.contextPath }/customerServlet?method=edit&custId=${customer.custId}">修改</a>
 													&nbsp;&nbsp;
 													<a href="${pageContext.request.contextPath }/customerServlet?method=delete&custId=${customer.custId}">删除</a>
 													</TD>
 												</TR>
 												
-												</c:forEach>
+												</S:iterator>
 
 											</TBODY>
 										</TABLE>
@@ -115,19 +116,21 @@
 									<TD><SPAN id=pagelink>
 											<DIV
 												style="LINE-HEIGHT: 20px; HEIGHT: 20px; TEXT-ALIGN: right">
-												共[<B>${total}</B>]条记录,[<B>${totalPage}</B>]页
+												共[<B><S:property value="totalCount"></B>]条记录,[<B><s:property value="totalPage"></B>]页
 												,每页显示
 												<select name="pageSize">
 												
-												<option value="15" <c:if test="${pageSize==1 }">selected</c:if>>1</option>
+												<option value="15" <c:if test="${pageSize==1 }">selected</c:if>>15</option>
 												<option value="30" <c:if test="${pageSize==30 }">selected</c:if>>30</option>
 												</select>
 												条
-												[<A href="javascript:to_page(${page-1})">前一页</A>]
-												<B>${page}</B>
-												[<A href="javascript:to_page(${page+1})">后一页</A>] 
+												[<A href="javascript:to_page(<s:property value="currPage-1"/>)">前一页</A>]
+												<B>
+
+												</B>
+												[<A href="javascript:to_page(<S:property value="currPage+1"/>)">后一页</A>]
 												到
-												<input type="text" size="3" id="page" name="page" />
+												<input type="text" size="3" id="page" name="currPage" />
 												页
 												
 												<input type="button" value="Go" onclick="to_page()"/>

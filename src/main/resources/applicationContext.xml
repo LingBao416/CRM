@@ -101,6 +101,7 @@
     <!--配置action-->
     <bean id = "linkManAction" class="crm.web.action.LinkManAction" scope="prototype">
         <property name="linkManService" ref="linkManService"/>
+        <property name="customerService" ref="customerService"/>
     </bean>
     <!--配置service-->
     <bean id = "linkManService" class="crm.service.impl.LinkManServiceImpl">

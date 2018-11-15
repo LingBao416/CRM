@@ -22,7 +22,7 @@
         <result name="findAll">/jsp/customer/list.jsp</result>
         <result name="editSuccess">/jsp/customer/edit.jsp</result>
         <result name="saveSuccess" type="redirectAction">/customer_findAll.action</result>
-        <result name="deleteSuccess" type="redirectAction">/customer_findAll.action</result>
+        <result name="deleteSuccess" type="redirectAction">/customer_delete.action</result>
         <result name="input">/jsp/customer/add.jsp</result>
 
         <interceptor-ref name="defaultStack">
@@ -33,6 +33,13 @@
 
     <action name="baseDict_*" class="baseDictAction" method="{1}">
 
+    </action>
+    <action name="linkMan_*" class="linkManAction" method="{1}">
+        <result name="findAll">/jsp/linkman/list.jsp</result>
+        <result name="saveUI">/jsp/linkman/add.jsp</result>
+        <result name="saveSuccess" type="redirectAction">/linkman_findAll.action</result>
+        <result name="editSuccess">/jsp/linkman/edit.jsp</result>
+        <result name="updateSuccess">/jsp/linkman/list.jsp</result>
     </action>
 </package>
 

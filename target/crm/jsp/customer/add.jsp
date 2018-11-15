@@ -22,7 +22,7 @@
 </HEAD>
 <BODY>
 	<FORM id=form1 name=form1
-		action="${pageContext.request.contextPath }/customerServlet?method=addsubmit"
+		action="${pageContext.request.contextPath }/customer_save.action"
 		method=post>
 		
 
