@@ -11,13 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ffe4a66-b987-40ad-ba68-73b2da24a874" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/crm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/customer/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/customer/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/customer/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/customer/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/crm/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,11 +37,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LinkManDaoImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/LinkManDaoImpl.java">
+      <file leaf-file-name="LinkManAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/LinkManAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/BaseDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseDaoImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/BaseDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/CustomerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,44 +99,24 @@
       <file leaf-file-name="CustomerDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/CustomerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="108" />
+            <state relative-caret-position="367">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1374#1375#0" expanded="true" />
-                <element signature="e#1434#1435#0" expanded="true" />
-                <element signature="e#1493#1494#0" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
+                <element signature="e#1596#1597#0" expanded="true" />
+                <element signature="e#1661#1662#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkManAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/LinkManAction.java">
+      <file leaf-file-name="LinkManService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/LinkManService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/impl/CustomerServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1609#1610#0" expanded="true" />
-                <element signature="e#1653#1654#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,12 +125,15 @@
       <file leaf-file-name="LinkManServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/impl/LinkManServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="480">
+              <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
+                <element signature="method#findAll#0;class#LinkManServiceImpl#0" />
+                <element signature="e#1289#1290#0" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1577#1578#0" expanded="true" />
+                <element signature="e#1602#1603#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +142,8 @@
       <file leaf-file-name="LinkManDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/LinkManDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="240">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,69 +151,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/CustomerAction.java">
+      <file leaf-file-name="LinkManDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/LinkManDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="475">
+              <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#save#0;class#CustomerAction#0" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1279#1280#0" expanded="true" />
+                <element signature="e#1298#1299#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/domain/PageBean.java">
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-167">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/CustomerService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="102" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="223">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -214,9 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/struts.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.jsp" />
@@ -246,24 +226,28 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/customer/add.jsp" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/utils/UploadUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/customer/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/customer/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/web/action/CustomerAction.java" />
-        <option value="$PROJECT_DIR$/src/main/ssh/crm/service/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/CustomerDao.java" />
-        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/impl/CustomerDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/domain/LinkMan.java" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/domain/LinkMan.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/domain/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/domain/Customer.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/ssh/crm/service/LinkManService.java" />
-        <option value="$PROJECT_DIR$/src/main/ssh/crm/web/action/LinkManAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/service/CustomerService.java" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/service/impl/CustomerServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/LinkManDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/linkman/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/linkman/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/web/action/LinkManAction.java" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/service/LinkManService.java" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/service/impl/LinkManServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/LinkManDao.java" />
         <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/impl/LinkManDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/ssh/crm/dao/impl/BaseDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -335,6 +319,13 @@
               <item name="crm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="ssh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,34 +353,6 @@
               <item name="ssh" type="462c0819:PsiDirectoryNode" />
               <item name="crm" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="ssh" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -617,7 +580,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542043905337</updated>
-      <workItem from="1542043906723" duration="48273000" />
+      <workItem from="1542043906723" duration="59371000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1542069974854</created>
@@ -640,11 +603,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542151562594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="customer/linkman">
+      <created>1542235751345</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542235751345</updated>
+    </task>
+    <task id="LOCAL-00005" summary="linkman">
+      <created>1542319923950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542319923950</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48273000" />
+    <option name="totallyTimeSpent" value="59371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="32" width="1668" height="951" extended-state="0" />
@@ -672,8 +649,8 @@
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info id="Persistence" order="0" sideWeight="0.5017544" side_tool="true" visible="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49824563" visible="true" weight="0.25" />
+      <window_info id="Persistence" order="0" sideWeight="0.50350875" side_tool="true" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49649122" visible="true" weight="0.25" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.3295325" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -695,38 +672,11 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="regist" />
     <MESSAGE value="login/customer（query/add）" />
-    <option name="LAST_COMMIT_MESSAGE" value="login/customer（query/add）" />
+    <MESSAGE value="customer/linkman" />
+    <MESSAGE value="linkman" />
+    <option name="LAST_COMMIT_MESSAGE" value="linkman" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/domain/SysUserEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-369">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/utils/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -922,13 +872,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/customer/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -947,16 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/CustomerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,37 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/linkman/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="159" column="53" lean-forward="true" selection-start-line="159" selection-start-column="53" selection-end-line="159" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1474">
-          <caret line="107" column="11" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/LinkManService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/domain/PageBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-167">
@@ -1081,35 +983,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/CustomerAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#save#0;class#CustomerAction#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/LinkManAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="159" column="53" lean-forward="true" selection-start-line="159" selection-start-column="53" selection-end-line="159" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="102" />
+        <state relative-caret-position="285">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1118,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/impl/CustomerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="24" selection-start-line="24" selection-end-line="40" selection-end-column="24" />
+        <state relative-caret-position="448">
+          <caret line="61" column="22" lean-forward="true" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1609#1610#0" expanded="true" />
@@ -1128,48 +1012,158 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/LinkManDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/linkman/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/linkman/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="-188">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/linkman/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="100" column="111" selection-start-line="100" selection-start-column="111" selection-end-line="100" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="103" column="64" selection-start-line="103" selection-start-column="64" selection-end-line="103" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/CustomerAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#save#0;class#CustomerAction#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/impl/LinkManServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="480">
+          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
+            <element signature="method#findAll#0;class#LinkManServiceImpl#0" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/CustomerDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/LinkManDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="30" selection-start-line="30" selection-end-line="31" selection-end-column="108" />
+        <state relative-caret-position="240">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1434#1435#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/LinkManDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="475">
+          <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/service/LinkManService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/web/action/LinkManAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+            <element signature="e#1661#1662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/ssh/crm/dao/impl/BaseDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="32" column="46" lean-forward="true" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
           </folding>
         </state>
       </provider>
